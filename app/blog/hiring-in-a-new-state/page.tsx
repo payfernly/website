@@ -66,7 +66,7 @@ export default function Post() {
 			<p>
 				We keep a state-by-state checklist with the agency, the form and the typical wait time
 				for each registration.{" "}
-				<Link href="/guides/state-registration-checklist">Download the checklist</Link>. Or let
+				<Link href="/contact">Ask us for the checklist</Link>. Or let
 				Fernly do it: on the Plus and Premium plans, we file every one of these registrations
 				for you.
 			</p>
