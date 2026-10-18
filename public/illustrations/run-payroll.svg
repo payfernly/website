@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <rect width="480" height="300" rx="24" fill="#e6f2ec"/>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#56605b">
+    <circle cx="90" cy="150" r="30" fill="#2f8a68"/>
+    <text x="90" y="155" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+    <text x="90" y="204" text-anchor="middle">Review hours</text>
+    <line x1="124" y1="150" x2="206" y2="150" stroke="#9fb3a8" stroke-width="3" stroke-dasharray="6 6"/>
+    <circle cx="240" cy="150" r="30" fill="#2f8a68"/>
+    <text x="240" y="155" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+    <text x="240" y="204" text-anchor="middle">Preview taxes</text>
+    <line x1="274" y1="150" x2="356" y2="150" stroke="#9fb3a8" stroke-width="3" stroke-dasharray="6 6"/>
+    <circle cx="390" cy="150" r="30" fill="#1f5c47"/>
+    <path d="M376 150 L386 160 L404 140" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="390" y="204" text-anchor="middle">Approve</text>
+  </g>
+</svg>
