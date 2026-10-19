@@ -1,14 +1,18 @@
 :root {
-	--fern-900: #12352a;
-	--fern-700: #1f5c47;
-	--fern-500: #2f8a68;
-	--fern-100: #e6f2ec;
-	--sand-50: #fbf8f2;
-	--ink: #1b1f1d;
-	--ink-muted: #56605b;
-	--line: #dfe5e1;
-	--radius: 14px;
-	--max: 1080px;
+	--navy-900: #001c64;
+	--navy-700: #003087;
+	--blue-600: #0551b5;
+	--blue-500: #0070e0;
+	--blue-100: #e7f0fb;
+	--bg: #faf8f5;
+	--surface: #ffffff;
+	--ink: #001435;
+	--ink-muted: #515f76;
+	--line: #e1e7ef;
+	--radius: 24px;
+	--radius-sm: 12px;
+	--shadow: 0 2px 6px rgba(0, 28, 100, 0.06), 0 12px 32px rgba(0, 28, 100, 0.08);
+	--max: 1140px;
 }
 
 * {
@@ -22,15 +26,16 @@ body {
 }
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+	font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
+		sans-serif;
 	color: var(--ink);
-	background: var(--sand-50);
+	background: var(--bg);
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
 
 a {
-	color: var(--fern-700);
+	color: var(--blue-600);
 }
 
 img {
@@ -41,22 +46,30 @@ img {
 h1,
 h2,
 h3 {
-	line-height: 1.2;
-	color: var(--fern-900);
+	line-height: 1.12;
+	color: var(--navy-900);
+	font-weight: 700;
 }
 
 h1 {
-	font-size: clamp(2rem, 4vw, 3rem);
-	letter-spacing: -0.02em;
-	margin: 0 0 1rem;
+	font-size: clamp(2.5rem, 5.5vw, 4rem);
+	letter-spacing: -0.03em;
+	margin: 0 0 1.25rem;
 }
 
 h2 {
-	font-size: 1.6rem;
+	font-size: clamp(1.7rem, 3vw, 2.3rem);
+	letter-spacing: -0.02em;
 	margin: 2.5rem 0 0.75rem;
 }
 
 h3 {
-	font-size: 1.15rem;
+	font-size: 1.2rem;
+	letter-spacing: -0.01em;
 	margin: 1.5rem 0 0.5rem;
+}
+
+::selection {
+	background: var(--blue-100);
+	color: var(--navy-900);
 }

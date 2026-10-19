@@ -24,9 +24,14 @@ export function SiteHeader() {
 						</Link>
 					))}
 				</nav>
-				<Link href="/contact" className={styles.cta}>
-					Talk to us
-				</Link>
+				<div className={styles.actions}>
+					<Link href="/contact" className={styles.login}>
+						Talk to us
+					</Link>
+					<Link href="/pricing" className={styles.cta}>
+						Get started
+					</Link>
+				</div>
 			</div>
 		</header>
 	);

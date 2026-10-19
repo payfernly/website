@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
-  <rect width="480" height="300" rx="24" fill="#e6f2ec"/>
-  <g fill="#ffffff" stroke="#c9d8cf" stroke-width="2">
+  <rect width="480" height="300" rx="24" fill="#e7f0fb"/>
+  <g fill="#ffffff" stroke="#c3d2e8" stroke-width="2">
     <rect x="48" y="60" width="64" height="48" rx="6"/>
     <rect x="120" y="60" width="64" height="48" rx="6"/>
     <rect x="192" y="60" width="64" height="48" rx="6"/>
@@ -16,7 +16,7 @@
     <rect x="264" y="180" width="64" height="52" rx="6"/>
     <rect x="336" y="180" width="72" height="52" rx="6"/>
   </g>
-  <g fill="#2f8a68">
+  <g fill="#0070e0">
     <rect x="48" y="60" width="64" height="48" rx="6"/>
     <rect x="192" y="60" width="64" height="48" rx="6"/>
     <rect x="156" y="116" width="64" height="56" rx="6"/>
@@ -24,6 +24,6 @@
     <rect x="160" y="180" width="96" height="52" rx="6"/>
     <rect x="336" y="60" width="96" height="48" rx="6"/>
   </g>
-  <circle cx="404" cy="242" r="26" fill="#1f5c47"/>
+  <circle cx="404" cy="242" r="26" fill="#003087"/>
   <path d="M392 242 L401 251 L418 233" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
