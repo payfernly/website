@@ -1,0 +1,16 @@
+# Fernly
+
+> Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.
+
+Fernly was started in Portland, Oregon in 2021. It pays employees and 1099 contractors, calculates, pays and files federal, state and local payroll taxes (including Form 941, W-2s and 1099-NECs), registers companies with state agencies when they hire in a new state, and keeps health, dental, vision, 401(k) and FSA deductions in sync with payroll. Every account gets a named payroll specialist.
+
+## Key pages
+
+- [Home](https://payfernly.com/): Overview of Fernly payroll for small US teams
+- [Pricing](https://payfernly.com/pricing): Essentials and Plus plans, priced per person
+- [Payroll](https://payfernly.com/features/payroll): Running pay runs, direct deposit, bonuses and off-cycle runs
+- [Benefits](https://payfernly.com/features/benefits): Health, dental, vision and 401(k) administration
+- [Compliance](https://payfernly.com/features/compliance): State registrations, tax filings, new-hire reporting and paid leave
+- [About](https://payfernly.com/about): Who started Fernly and why
+- [Blog](https://payfernly.com/blog): Guides on payroll, taxes and hiring
+- [Contact](https://payfernly.com/contact): Book a 20-minute demo
