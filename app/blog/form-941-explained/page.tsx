@@ -6,7 +6,7 @@ import { formatDate, getPost } from "@/lib/posts";
 const post = getPost("form-941-explained");
 
 export const metadata: Metadata = {
-	title: post.title,
+	title: "Form 941 explained: the quarterly payroll return",
 	description: post.summary,
 	alternates: { canonical: `/blog/${post.slug}` },
 };
@@ -43,7 +43,7 @@ export default function Post() {
 			<h3>Forgetting the sick-pay adjustment</h3>
 			<p>
 				If a third-party insurer paid short-term disability, their share of FICA is reported
-				seperately on line 8. Leave it off and your numbers won&apos;t tie out.
+				separately on line 8. Leave it off and your numbers won&apos;t tie out.
 			</p>
 			<h3>Using the wrong deposit schedule</h3>
 			<p>
