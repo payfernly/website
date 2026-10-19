@@ -14,6 +14,7 @@ export function SiteFooter() {
 					<Link href="/features/payroll">Payroll</Link>
 					<Link href="/features/benefits">Benefits</Link>
 					<Link href="/features/compliance">Compliance</Link>
+					<Link href="/solutions/startups">Startups</Link>
 					<Link href="/pricing">Pricing</Link>
 				</div>
 				<div className={styles.col}>
