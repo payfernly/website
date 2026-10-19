@@ -4,7 +4,7 @@ import styles from "@/components/page.module.css";
 export const metadata: Metadata = {
 	title: "Benefits administration",
 	description:
-		"Offer health, dental, vision and 401(k) through Fernly. Enrollments turn into payroll deductions automatically, and carriers get updated when someone joins or leaves.",
+		"Offer health, dental, vision and 401(k) through Fernly. Enrollments become payroll deductions automatically, and carriers are updated as staff join or leave.",
 	alternates: { canonical: "/features/benefits" },
 };
 

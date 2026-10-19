@@ -4,7 +4,7 @@ import styles from "@/components/page.module.css";
 export const metadata: Metadata = {
 	title: "Benefits administration",
 	description:
-		"Fernly registers you with state tax agencies, files every quarterly and annual payroll return, and tracks new-hire reporting, paid leave and minimum-wage changes in all 50 states.",
+		"Fernly registers you with state tax agencies, files every quarterly and annual payroll return, and tracks new-hire reporting and wage rules in all 50 states.",
 	alternates: { canonical: "/features/compliance" },
 };
 
