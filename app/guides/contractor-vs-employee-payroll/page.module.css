@@ -1,0 +1,8 @@
+/* Match the header's "Get started" button */
+a.getStarted {
+	background: var(--navy-900);
+}
+
+a.getStarted:hover {
+	background: var(--navy-700);
+}
