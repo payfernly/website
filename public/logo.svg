@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <rect width="32" height="32" rx="8" fill="#1f5c47"/>
-  <path d="M16 26 C16 18 16 12 16 6" stroke="#e6f2ec" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <path d="M16 10 C12 9 9 10 7 12 C10 13 13 12.5 16 11" fill="#9fd4bb"/>
-  <path d="M16 10 C20 9 23 10 25 12 C22 13 19 12.5 16 11" fill="#9fd4bb"/>
-  <path d="M16 15 C12 14 9 15 7 17 C10 18 13 17.5 16 16" fill="#cbe9da"/>
-  <path d="M16 15 C20 14 23 15 25 17 C22 18 19 17.5 16 16" fill="#cbe9da"/>
-  <path d="M16 20 C13 19.2 10.5 20 9 21.5 C11.5 22.3 14 22 16 21" fill="#e6f2ec"/>
-  <path d="M16 20 C19 19.2 21.5 20 23 21.5 C20.5 22.3 18 22 16 21" fill="#e6f2ec"/>
+  <rect width="32" height="32" rx="8" fill="#003087"/>
+  <path d="M16 26 C16 18 16 12 16 6" stroke="#e7f0fb" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M16 10 C12 9 9 10 7 12 C10 13 13 12.5 16 11" fill="#8fc2f3"/>
+  <path d="M16 10 C20 9 23 10 25 12 C22 13 19 12.5 16 11" fill="#8fc2f3"/>
+  <path d="M16 15 C12 14 9 15 7 17 C10 18 13 17.5 16 16" fill="#c5ddf8"/>
+  <path d="M16 15 C20 14 23 15 25 17 C22 18 19 17.5 16 16" fill="#c5ddf8"/>
+  <path d="M16 20 C13 19.2 10.5 20 9 21.5 C11.5 22.3 14 22 16 21" fill="#e7f0fb"/>
+  <path d="M16 20 C19 19.2 21.5 20 23 21.5 C20.5 22.3 18 22 16 21" fill="#e7f0fb"/>
 </svg>
