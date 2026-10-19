@@ -11,6 +11,7 @@ const PAGES = [
 	"/features/compliance",
 	"/about",
 	"/blog",
+	"/guides",
 	"/contact",
 ];
 
