@@ -3,6 +3,8 @@ import styles from "@/components/page.module.css";
 
 export const metadata: Metadata = {
 	title: "Contact",
+	description:
+		"Book a 20-minute Fernly demo and get pricing for your exact headcount. We reply within one business day, or reach support at (503) 555-0148.",
 	alternates: { canonical: "/contact" },
 };
 
