@@ -12,7 +12,7 @@ export default function BenefitsPage() {
 	return (
 		<>
 			<section className={styles.section}>
-				<div className={styles.hero}>
+				<div className={`${styles.hero} ${styles.heroDots}`}>
 					<div>
 						<p className={styles.eyebrow}>Benefits</p>
 						<h1>Benefits your team can enroll in from their phone.</h1>

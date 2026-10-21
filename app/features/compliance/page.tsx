@@ -12,7 +12,7 @@ export default function CompliancePage() {
 	return (
 		<>
 			<section className={styles.section}>
-				<div className={styles.hero}>
+				<div className={`${styles.hero} ${styles.heroDots}`}>
 					<div>
 						<p className={styles.eyebrow}>Compliance</p>
 						<h1>Hire in a new state without opening a new tab.</h1>

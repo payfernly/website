@@ -13,7 +13,7 @@ export default function PayrollPage() {
 	return (
 		<>
 			<section className={styles.section}>
-				<div className={styles.hero}>
+				<div className={`${styles.hero} ${styles.heroDots}`}>
 					<div>
 						<p className={styles.eyebrow}>Payroll</p>
 						<h1>Review, preview, approve. That&apos;s a pay run.</h1>
