@@ -6,6 +6,7 @@ const BASE = "https://payfernly.com";
 const PAGES = [
 	"/",
 	"/pricing",
+	"/compare/gusto",
 	"/features/payroll",
 	"/features/benefits",
 	"/features/compliance",
