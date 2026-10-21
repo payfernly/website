@@ -214,6 +214,19 @@
 	font-weight: 600;
 }
 
+.table caption {
+	text-align: left;
+	padding: 0.85rem 1rem;
+	color: var(--ink-muted);
+	font-size: 0.9rem;
+}
+
+.table tbody th {
+	background: var(--surface);
+	color: var(--navy-900);
+	vertical-align: top;
+}
+
 .postMeta {
 	color: var(--ink-muted);
 	font-size: 0.9rem;
