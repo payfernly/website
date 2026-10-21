@@ -9,6 +9,7 @@ const PAGES = [
 	"/features/payroll",
 	"/features/benefits",
 	"/features/compliance",
+	"/compare/gusto",
 	"/about",
 	"/blog",
 	"/contact",
