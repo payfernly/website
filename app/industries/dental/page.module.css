@@ -1,0 +1,7 @@
+a.navy {
+	background: var(--navy-900);
+}
+
+a.navy:hover {
+	background: var(--navy-700);
+}
