@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CurrentYear } from "./CurrentYear";
 import styles from "./SiteFooter.module.css";
 
 export function SiteFooter() {
@@ -24,7 +25,7 @@ export function SiteFooter() {
 				</div>
 			</div>
 			<p className={styles.legal}>
-				© 2022 Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
+				© <CurrentYear /> Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
 				partner, Lakeshore Community Bank, Member FDIC.
 			</p>
 		</footer>
