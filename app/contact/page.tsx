@@ -3,6 +3,8 @@ import styles from "@/components/page.module.css";
 
 export const metadata: Metadata = {
 	title: "Contact",
+	description:
+		"Talk to Fernly about payroll for your team. Book a 20-minute demo with pricing for your exact headcount, or reach support by email or phone, Monday to Friday.",
 	alternates: { canonical: "/contact" },
 };
 
