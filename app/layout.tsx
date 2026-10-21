@@ -19,6 +19,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
+			<head>
+				<script async src="https://lettervisit.com/v.js" data-key="lv_pub_vyyklm2zei0phbxbfpynh5kw"></script>
+			</head>
 			<body>
 				<SiteHeader />
 				<main>{children}</main>
