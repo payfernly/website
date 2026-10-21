@@ -24,8 +24,8 @@ export function SiteFooter() {
 				</div>
 			</div>
 			<p className={styles.legal}>
-				© 2022 Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
-				partner, Lakeshore Community Bank, Member FDIC.
+				© {new Date().getFullYear()} Fernly, Inc. · Fernly is not a bank. Payroll funds are held
+				by our banking partner, Lakeshore Community Bank, Member FDIC.
 			</p>
 		</footer>
 	);
