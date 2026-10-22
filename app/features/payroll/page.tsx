@@ -24,7 +24,7 @@ export default function PayrollPage() {
 				offerCount={3}
 			/>
 			<section className={styles.section}>
-				<div className={`${styles.hero} ${styles.heroDots}`}>
+				<div className={`${styles.hero} ${styles.heroLight}`}>
 					<div>
 						<p className={styles.eyebrow}>Payroll</p>
 						<h1>Review, preview, approve. That&apos;s a pay run.</h1>
