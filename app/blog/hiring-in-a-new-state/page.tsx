@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { ArticleJsonLd } from "@/components/ArticleJsonLd";
 import { formatDate, getPost } from "@/lib/posts";
 
 const post = getPost("hiring-in-a-new-state");
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 export default function Post() {
 	return (
 		<article className={styles.narrow}>
+			<ArticleJsonLd post={post} />
 			<p className={styles.eyebrow}>Compliance</p>
 			<h1>{post.title}</h1>
 			<p className={styles.postMeta}>
