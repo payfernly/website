@@ -1,16 +1,27 @@
 import type { Metadata } from "next";
 import styles from "@/components/page.module.css";
+import { FeatureJsonLd } from "@/components/FeatureJsonLd";
+
+const title = "Benefits administration";
+const description =
+	"Offer health, dental, vision and 401(k) through Fernly. Enrollments turn into payroll deductions automatically, and carriers get updated when someone joins or leaves.";
 
 export const metadata: Metadata = {
-	title: "Benefits administration",
-	description:
-		"Offer health, dental, vision and 401(k) through Fernly. Enrollments turn into payroll deductions automatically, and carriers get updated when someone joins or leaves.",
+	title,
+	description,
 	alternates: { canonical: "/features/benefits" },
 };
 
 export default function BenefitsPage() {
 	return (
 		<>
+			<FeatureJsonLd
+				name="Fernly Benefits administration"
+				description={description}
+				path="/features/benefits"
+				lowPrice={80}
+				offerCount={2}
+			/>
 			<section className={styles.section}>
 				<div className={styles.hero}>
 					<div>

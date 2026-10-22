@@ -1,17 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { FeatureJsonLd } from "@/components/FeatureJsonLd";
+
+const title = "Payroll";
+const description =
+	"Run payroll in three steps: review hours, preview taxes, approve. Fernly handles direct deposit, garnishments, bonuses and off-cycle runs for hourly and salaried staff.";
 
 export const metadata: Metadata = {
-	title: "Payroll",
-	description:
-		"Run payroll in three steps: review hours, preview taxes, approve. Fernly handles direct deposit, garnishments, bonuses and off-cycle runs for hourly and salaried staff.",
+	title,
+	description,
 	alternates: { canonical: "/features/payroll" },
 };
 
 export default function PayrollPage() {
 	return (
 		<>
+			<FeatureJsonLd
+				name="Fernly Payroll"
+				description={description}
+				path="/features/payroll"
+				lowPrice={40}
+				offerCount={3}
+			/>
 			<section className={styles.section}>
 				<div className={styles.hero}>
 					<div>
@@ -27,12 +38,13 @@ export default function PayrollPage() {
 						alt="Three steps of a Fernly pay run: review hours, preview taxes, approve"
 						width={480}
 						height={300}
+						fetchPriority="high"
 					/>
 				</div>
 			</section>
 
 			<section className={styles.section}>
-				<h1>Built for hourly and salaried teams</h1>
+				<h2>Built for hourly and salaried teams</h2>
 				<div className={styles.grid2}>
 					<div className={styles.card}>
 						<h3>Time tracking that flows in</h3>

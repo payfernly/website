@@ -1,16 +1,27 @@
 import type { Metadata } from "next";
 import styles from "@/components/page.module.css";
+import { FeatureJsonLd } from "@/components/FeatureJsonLd";
+
+const title = "Payroll tax compliance";
+const description =
+	"Fernly registers you with state tax agencies, files every quarterly and annual payroll return, and tracks new-hire reporting, paid leave and minimum-wage changes in all 50 states.";
 
 export const metadata: Metadata = {
-	title: "Benefits administration",
-	description:
-		"Fernly registers you with state tax agencies, files every quarterly and annual payroll return, and tracks new-hire reporting, paid leave and minimum-wage changes in all 50 states.",
+	title,
+	description,
 	alternates: { canonical: "/features/compliance" },
 };
 
 export default function CompliancePage() {
 	return (
 		<>
+			<FeatureJsonLd
+				name="Fernly Payroll tax compliance"
+				description={description}
+				path="/features/compliance"
+				lowPrice={40}
+				offerCount={3}
+			/>
 			<section className={styles.section}>
 				<div className={styles.hero}>
 					<div>
