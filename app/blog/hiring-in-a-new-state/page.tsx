@@ -62,13 +62,12 @@ export default function Post() {
 				support enforcement, and it&apos;s one of the most commonly missed filings we see.
 			</p>
 
-			<h2>Want the whole list?</h2>
+			<h2>Rather not do it yourself?</h2>
 			<p>
-				We keep a state-by-state checklist with the agency, the form and the typical wait time
-				for each registration.{" "}
-				<Link href="/guides/state-registration-checklist">Download the checklist</Link>. Or let
-				Fernly do it: on the Plus and Premium plans, we file every one of these registrations
-				for you.
+				The agency, the form and the typical wait time differ for every registration in every
+				state. Let Fernly do it: on the Plus and Premium plans, we file every one of these
+				registrations for you.{" "}
+				<Link href="/features/compliance">See everything Fernly files for you</Link>.
 			</p>
 		</article>
 	);
