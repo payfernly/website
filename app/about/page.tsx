@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
 	return (
 		<>
-			<section className={styles.narrow}>
+			<section className={`${styles.narrow} ${styles.prose}`}>
 				<p className={styles.eyebrow}>About Fernly</p>
 				<h1>We&apos;re the payroll team small companies don&apos;t have.</h1>
 				<p className={styles.lede}>
@@ -34,7 +34,7 @@ export default function AboutPage() {
 				/>
 			</section>
 
-			<section className={styles.narrow}>
+			<section className={`${styles.narrow} ${styles.prose}`}>
 				<h2>What we believe</h2>
 				<h3>Small teams deserve expert help</h3>
 				<p>

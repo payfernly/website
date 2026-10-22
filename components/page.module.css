@@ -43,6 +43,12 @@
 		linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 55%, var(--blue-600) 100%);
 }
 
+.heroNavy {
+	background:
+		radial-gradient(circle, rgba(125, 185, 245, 0.16) 1.5px, transparent 2px) 0 0 / 22px 22px,
+		var(--navy-900);
+}
+
 .heroLight {
 	background: var(--surface);
 }
@@ -242,6 +248,14 @@
 	background: var(--navy-900);
 	color: #fff;
 	font-weight: 600;
+}
+
+.prose p {
+	color: var(--navy-900);
+}
+
+.prose .eyebrow {
+	color: var(--navy-700);
 }
 
 .postMeta {

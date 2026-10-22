@@ -45,7 +45,7 @@ export default function ContactPage() {
 					Anything we should know?
 					<textarea name="message" rows={4} />
 				</label>
-				<button type="submit" className={styles.primary}>
+				<button type="submit" className={`${styles.primary} ${styles.primaryDeep}`}>
 					Send
 				</button>
 			</form>
