@@ -43,6 +43,10 @@
 		linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 55%, var(--blue-600) 100%);
 }
 
+.heroLight {
+	background: var(--surface);
+}
+
 .hero h1 {
 	color: #fff;
 }
@@ -53,6 +57,18 @@
 
 .hero .lede {
 	color: rgba(255, 255, 255, 0.85);
+}
+
+.heroLight h1 {
+	color: var(--navy-900);
+}
+
+.heroLight .eyebrow {
+	color: var(--navy-700);
+}
+
+.heroLight .lede {
+	color: var(--ink-muted);
 }
 
 .hero img {
@@ -82,6 +98,14 @@
 }
 
 .primary:hover {
+	background: var(--navy-700);
+}
+
+.primaryDeep {
+	background: var(--navy-900);
+}
+
+.primaryDeep:hover {
 	background: var(--navy-700);
 }
 

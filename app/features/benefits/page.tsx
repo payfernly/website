@@ -23,7 +23,7 @@ export default function BenefitsPage() {
 				offerCount={2}
 			/>
 			<section className={styles.section}>
-				<div className={styles.hero}>
+				<div className={`${styles.hero} ${styles.heroLight}`}>
 					<div>
 						<p className={styles.eyebrow}>Benefits</p>
 						<h1>Benefits your team can enroll in from their phone.</h1>

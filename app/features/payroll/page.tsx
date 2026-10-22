@@ -84,7 +84,7 @@ export default function PayrollPage() {
 					Approve by 5 p.m. Pacific two business days before payday and your team is paid on
 					payday. On the Plus and Premium plans, approve by 5 p.m. Pacific the day before.
 				</p>
-				<Link href="/pricing" className={styles.primary}>
+				<Link href="/pricing" className={`${styles.primary} ${styles.primaryDeep}`}>
 					Compare plans
 				</Link>
 			</section>

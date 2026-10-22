@@ -42,7 +42,7 @@ export async function renderFeatureOgImage({
 							fontWeight: 700,
 							letterSpacing: "0.12em",
 							textTransform: "uppercase",
-							color: "#0070e0",
+							color: "#003087",
 							marginBottom: 24,
 						}}
 					>
@@ -59,11 +59,11 @@ export async function renderFeatureOgImage({
 					>
 						{title}
 					</div>
-					<div style={{ fontSize: 34, lineHeight: 1.35, color: "#515f76" }}>
+					<div style={{ fontSize: 34, lineHeight: 1.35, color: "#001435" }}>
 						{subtitle}
 					</div>
 				</div>
-				<div style={{ fontSize: 26, color: "#515f76" }}>payfernly.com</div>
+				<div style={{ fontSize: 26, color: "#001435" }}>payfernly.com</div>
 			</div>
 		),
 		OG_SIZE,

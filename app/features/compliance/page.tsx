@@ -23,7 +23,7 @@ export default function CompliancePage() {
 				offerCount={3}
 			/>
 			<section className={styles.section}>
-				<div className={styles.hero}>
+				<div className={`${styles.hero} ${styles.heroLight}`}>
 					<div>
 						<p className={styles.eyebrow}>Compliance</p>
 						<h1>Hire in a new state without opening a new tab.</h1>
