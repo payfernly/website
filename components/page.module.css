@@ -259,6 +259,10 @@
 	gap: 1.25rem;
 }
 
+.postList h3 a {
+	text-decoration: none;
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
