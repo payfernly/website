@@ -13,7 +13,7 @@ export default function AboutPage() {
 	return (
 		<>
 			<section className={styles.narrow}>
-				<p className={styles.eyebrow}>About Fernly</p>
+				<p className={`${styles.eyebrow} ${styles.eyebrowDeep}`}>About Fernly</p>
 				<h1>We&apos;re the payroll team small companies don&apos;t have.</h1>
 				<p className={styles.lede}>
 					Fernly started in 2021, in a co-working space above a bike shop in Portland, Oregon.
@@ -27,7 +27,7 @@ export default function AboutPage() {
 
 			<section className={styles.section}>
 				<img
-					src="/illustrations/team.svg"
+					src="/illustrations/team-light.svg"
 					alt="Illustration of four members of the Fernly team standing side by side"
 					width={640}
 					height={300}
