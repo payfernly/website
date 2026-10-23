@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PostJsonLd } from "@/components/PostJsonLd";
 import styles from "@/components/page.module.css";
 import { formatDate, getPost } from "@/lib/posts";
 
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
 
 export default function Post() {
 	return (
-		<article className={styles.narrow}>
+		<article className={`${styles.narrow} ${styles.post}`}>
+			<PostJsonLd post={post} />
 			<p className={styles.eyebrow}>Taxes</p>
 			<h1>{post.title}</h1>
 			<p className={styles.postMeta}>
@@ -43,7 +45,7 @@ export default function Post() {
 			<h3>Forgetting the sick-pay adjustment</h3>
 			<p>
 				If a third-party insurer paid short-term disability, their share of FICA is reported
-				seperately on line 8. Leave it off and your numbers won&apos;t tie out.
+				separately on line 8. Leave it off and your numbers won&apos;t tie out.
 			</p>
 			<h3>Using the wrong deposit schedule</h3>
 			<p>
