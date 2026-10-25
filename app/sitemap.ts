@@ -1,25 +1,12 @@
 import type { MetadataRoute } from "next";
 import { POSTS } from "@/lib/posts";
-
-const BASE = "https://payfernly.com";
-
-const PAGES = [
-	"/",
-	"/pricing",
-	"/features/payroll",
-	"/features/benefits",
-	"/features/compliance",
-	"/about",
-	"/blog",
-	"/contact",
-	"/events/techcrunch-disrupt-2027",
-];
+import { PAGES, absoluteUrl } from "@/lib/site-map";
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	return [
-		...PAGES.map((path) => ({ url: `${BASE}${path === "/" ? "" : path}` })),
+		...PAGES.map((page) => ({ url: absoluteUrl(page.path) })),
 		...POSTS.map((post) => ({
-			url: `${BASE}/blog/${post.slug}`,
+			url: absoluteUrl(`/blog/${post.slug}`),
 			lastModified: post.date,
 		})),
 	];
