@@ -43,6 +43,10 @@
 		linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 55%, var(--blue-600) 100%);
 }
 
+.heroDeep {
+	background: var(--navy-900);
+}
+
 .heroLight {
 	background: var(--surface);
 }
