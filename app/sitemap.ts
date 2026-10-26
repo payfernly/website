@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { GLOSSARY_TERMS } from "@/lib/glossary";
 import { POSTS } from "@/lib/posts";
 
 const BASE = "https://payfernly.com";
@@ -11,6 +12,7 @@ const PAGES = [
 	"/features/compliance",
 	"/about",
 	"/blog",
+	"/glossary",
 	"/contact",
 	"/events/techcrunch-disrupt-2027",
 ];
@@ -22,5 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			url: `${BASE}/blog/${post.slug}`,
 			lastModified: post.date,
 		})),
+		...GLOSSARY_TERMS.map((term) => ({ url: `${BASE}/glossary/${term.slug}` })),
 	];
 }
