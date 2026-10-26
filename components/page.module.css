@@ -26,6 +26,21 @@
 	margin: 0 0 1.75rem;
 }
 
+.eyebrowNavy {
+	color: var(--navy-900);
+}
+
+.ledeInk {
+	color: var(--ink);
+}
+
+.illustration {
+	display: block;
+	background: var(--surface);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+}
+
 .hero {
 	display: grid;
 	grid-template-columns: 1.1fr 1fr;
