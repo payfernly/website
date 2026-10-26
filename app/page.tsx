@@ -1,17 +1,42 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { HomeJsonLd } from "@/components/HomeJsonLd";
+
+const title = "Fernly — Payroll for teams of 5 to 50";
+const description =
+	"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.";
+const ogImage = {
+	url: "https://payfernly.com/og-image.png",
+	width: 1200,
+	height: 630,
+	alt: title,
+};
 
 export const metadata: Metadata = {
-	title: { absolute: "Fernly — Payroll for teams of 5 to 50" },
-	description:
-		"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.",
+	title: { absolute: title },
+	description,
 	alternates: { canonical: "/" },
+	openGraph: {
+		siteName: "Fernly",
+		type: "website",
+		url: "https://payfernly.com",
+		title,
+		description,
+		images: [ogImage],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title,
+		description,
+		images: [ogImage],
+	},
 };
 
 export default function HomePage() {
 	return (
 		<>
+			<HomeJsonLd description={description} />
 			<section className={styles.section}>
 				<div className={`${styles.hero} ${styles.heroDots}`}>
 					<div>
