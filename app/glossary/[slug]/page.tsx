@@ -27,7 +27,7 @@ export default async function GlossaryTermPage({ params }: Props) {
 	if (!term) notFound();
 
 	return (
-		<article className={styles.narrow}>
+		<article className={`${styles.narrow} ${styles.term}`}>
 			<p className={styles.eyebrow}>Glossary</p>
 			<h1>{term.term}</h1>
 			<p className={styles.lede}>{term.summary}</p>

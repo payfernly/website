@@ -27,12 +27,12 @@
 
 .col p {
 	margin: 0.25rem 0 0;
-	color: #9cb3e0;
+	color: var(--blue-100);
 	max-width: 32ch;
 }
 
 .col a {
-	color: #c9d7f2;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
 	margin: 3rem auto 0;
 	padding-top: 1.5rem;
 	border-top: 1px solid rgba(255, 255, 255, 0.18);
-	color: #9cb3e0;
+	color: var(--blue-100);
 	font-size: 0.8rem;
 }
 

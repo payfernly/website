@@ -244,6 +244,18 @@
 	font-weight: 600;
 }
 
+.term .eyebrow {
+	color: var(--navy-700);
+}
+
+.term .lede {
+	color: var(--navy-900);
+}
+
+.term a {
+	color: var(--navy-700);
+}
+
 .postMeta {
 	color: var(--ink-muted);
 	font-size: 0.9rem;
