@@ -26,6 +26,14 @@
 	margin: 0 0 1.75rem;
 }
 
+.eyebrowDeep {
+	color: var(--navy-900);
+}
+
+.ledeDeep {
+	color: var(--ink);
+}
+
 .hero {
 	display: grid;
 	grid-template-columns: 1.1fr 1fr;

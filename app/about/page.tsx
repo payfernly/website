@@ -13,9 +13,9 @@ export default function AboutPage() {
 	return (
 		<>
 			<section className={styles.narrow}>
-				<p className={styles.eyebrow}>About Fernly</p>
+				<p className={`${styles.eyebrow} ${styles.eyebrowDeep}`}>About Fernly</p>
 				<h1>We&apos;re the payroll team small companies don&apos;t have.</h1>
-				<p className={styles.lede}>
+				<p className={`${styles.lede} ${styles.ledeDeep}`}>
 					Fernly started in 2021, in a co-working space above a bike shop in Portland, Oregon.
 					Priya Raman had spent six years running payroll and HR at a 30-person design studio.
 					Marcus Lindqvist had built billing systems at a fintech. Between them they had filed
