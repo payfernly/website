@@ -259,6 +259,16 @@
 	gap: 1.25rem;
 }
 
+.termList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.termActions {
+	margin-top: 2.5rem;
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
