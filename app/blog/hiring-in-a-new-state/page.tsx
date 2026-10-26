@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function Post() {
 	return (
-		<article className={styles.narrow}>
+		<article className={`${styles.narrow} ${styles.post}`}>
 			<ArticleJsonLd post={post} />
 			<p className={styles.eyebrow}>Compliance</p>
 			<h1>{post.title}</h1>

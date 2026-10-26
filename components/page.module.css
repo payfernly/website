@@ -250,6 +250,16 @@
 	margin: 0 0 2rem;
 }
 
+.post {
+	color: var(--navy-900);
+}
+
+.post .eyebrow,
+.post .postMeta,
+.post a {
+	color: var(--navy-700);
+}
+
 .postList {
 	list-style: none;
 	padding: 0;
