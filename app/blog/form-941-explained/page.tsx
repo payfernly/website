@@ -16,7 +16,7 @@ export default function Post() {
 	return (
 		<article className={styles.narrow}>
 			<BlogPostingJsonLd post={post} />
-			<p className={styles.eyebrow}>Taxes</p>
+			<p className={`${styles.eyebrow} ${styles.eyebrowDeep}`}>Taxes</p>
 			<h1>{post.title}</h1>
 			<p className={styles.postMeta}>
 				{post.author} · {formatDate(post.date)}
@@ -45,7 +45,7 @@ export default function Post() {
 			<h3>Forgetting the sick-pay adjustment</h3>
 			<p>
 				If a third-party insurer paid short-term disability, their share of FICA is reported
-				seperately on line 8. Leave it off and your numbers won&apos;t tie out.
+				separately on line 8. Leave it off and your numbers won&apos;t tie out.
 			</p>
 			<h3>Using the wrong deposit schedule</h3>
 			<p>
@@ -61,7 +61,7 @@ export default function Post() {
 
 			<p>
 				Fernly prepares and files your 941 every quarter on every plan.{" "}
-				<Link href="/features/compliance">See everything we file</Link>.
+				<Link href="/features/compliance" className={styles.inlineLink}>See everything we file</Link>.
 			</p>
 		</article>
 	);

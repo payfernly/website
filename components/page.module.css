@@ -19,6 +19,14 @@
 	margin: 0 0 1rem;
 }
 
+.eyebrowDeep {
+	color: var(--navy-700);
+}
+
+.inlineLink {
+	color: var(--navy-700);
+}
+
 .lede {
 	font-size: 1.25rem;
 	color: var(--ink-muted);

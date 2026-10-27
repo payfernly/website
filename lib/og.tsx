@@ -15,6 +15,10 @@ export async function renderFeatureOgImage({
 }) {
 	const logo = await readFile(join(process.cwd(), "public/logo.svg"));
 	const logoSrc = `data:image/svg+xml;base64,${logo.toString("base64")}`;
+	const [regular, bold] = await Promise.all([
+		readFile(join(process.cwd(), "lib/fonts/LiberationSans-Regular.ttf")),
+		readFile(join(process.cwd(), "lib/fonts/LiberationSans-Bold.ttf")),
+	]);
 
 	return new ImageResponse(
 		(
@@ -28,6 +32,7 @@ export async function renderFeatureOgImage({
 					padding: "72px 80px",
 					background: "#faf8f5",
 					color: "#001c64",
+					fontFamily: "Liberation Sans",
 				}}
 			>
 				<div style={{ display: "flex", alignItems: "center", gap: 18 }}>
@@ -66,6 +71,12 @@ export async function renderFeatureOgImage({
 				<div style={{ fontSize: 26, color: "#001435" }}>payfernly.com</div>
 			</div>
 		),
-		OG_SIZE,
+		{
+			...OG_SIZE,
+			fonts: [
+				{ name: "Liberation Sans", data: regular, weight: 400, style: "normal" },
+				{ name: "Liberation Sans", data: bold, weight: 700, style: "normal" },
+			],
+		},
 	);
 }
