@@ -1,7 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import styles from "./SiteFooter.module.css";
 
 export function SiteFooter() {
+	const [year, setYear] = useState<number | null>(null);
+
+	useEffect(() => {
+		setYear(new Date().getFullYear());
+	}, []);
+
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.inner}>
@@ -24,7 +33,7 @@ export function SiteFooter() {
 				</div>
 			</div>
 			<p className={styles.legal}>
-				© 2022 Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
+				© {year} Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
 				partner, Lakeshore Community Bank, Member FDIC.
 			</p>
 		</footer>
