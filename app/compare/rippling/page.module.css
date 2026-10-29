@@ -1,0 +1,13 @@
+.tableScroll {
+	overflow-x: auto;
+}
+
+.tableScroll table {
+	min-width: 640px;
+}
+
+.tableScroll caption {
+	text-align: left;
+	padding-bottom: 1rem;
+	font-weight: 600;
+}
