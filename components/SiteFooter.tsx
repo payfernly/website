@@ -20,6 +20,7 @@ export function SiteFooter() {
 					<span className={styles.heading}>Company</span>
 					<Link href="/about">About</Link>
 					<Link href="/blog">Blog</Link>
+					<Link href="/glossary">Glossary</Link>
 					<Link href="/contact">Contact</Link>
 				</div>
 			</div>
