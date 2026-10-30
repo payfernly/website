@@ -105,7 +105,8 @@ export const COMPETITORS: Competitor[] = [
 			support:
 				"A dedicated payroll expert during onboarding, then live human support every day from 7am to 7pm CT.",
 			benefits: "401(k), workers' comp and health benefits are offered through integrations.",
-			multiState: "[What Homebase Payroll offers for multi-state payroll and state registrations]",
+			multiState:
+				"Available in all 50 states and Washington D.C. Multiple locations can share one payroll run only if they have the same EIN and pay schedule.",
 			setup:
 				"No implementation fees. Homebase transfers your pay and tax data and aims to have you live within a week.",
 			yearEnd: "W-2s and 1099s are included.",
