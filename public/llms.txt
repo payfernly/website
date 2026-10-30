@@ -1,0 +1,24 @@
+# Fernly
+
+> Fernly runs payroll, files federal and state payroll taxes, and handles benefits for US companies with 5 to 50 employees, with a named payroll specialist on every account.
+
+## Product
+
+- [Home](https://payfernly.com/): Overview of Fernly's payroll, tax filing and benefits for US teams of 5 to 50.
+- [Payroll](https://payfernly.com/features/payroll): Running payroll in three steps, plus direct deposit, garnishments, bonuses and off-cycle runs.
+- [Benefits](https://payfernly.com/features/benefits): Health, dental, vision and 401(k) through Fernly, with enrollments flowing into payroll deductions.
+- [Compliance](https://payfernly.com/features/compliance): State tax registrations, quarterly and annual payroll filings, and new-hire, paid leave and minimum-wage tracking in all 50 states.
+- [Pricing](https://payfernly.com/pricing): Plans and per-person pricing, and what each plan includes.
+
+## Company
+
+- [About](https://payfernly.com/about): Who started Fernly in Portland, Oregon in 2021, and why.
+- [Contact](https://payfernly.com/contact): Ways to reach sales and customer support, and a form to book a demo.
+- [Fernly at TechCrunch Disrupt 2027](https://payfernly.com/events/techcrunch-disrupt-2027): Meeting the Fernly team at TechCrunch Disrupt 2027 in San Francisco.
+
+## Blog
+
+- [Blog](https://payfernly.com/blog): Plain-English guides to payroll taxes, state registrations and running payroll at a small company.
+- [Your first hire in a new state](https://payfernly.com/blog/hiring-in-a-new-state): The withholding, unemployment, paid leave, local tax and new-hire registrations to file before the first paycheck.
+- [Form 941, explained](https://payfernly.com/blog/form-941-explained): What the quarterly federal payroll return reports, why it must match your deposits, and common mistakes.
+- [Switching payroll providers mid-year](https://payfernly.com/blog/switching-payroll-mid-year): Why switching mid-year is fine at the start of a quarter, with the checklist Fernly uses.
