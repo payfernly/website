@@ -93,6 +93,26 @@ export const COMPETITORS: Competitor[] = [
 		bottomLine:
 			"If you run a single location on Square and want payroll tied to your point of sale, Square Payroll is easy to start with. If you have 5 to 50 people, want benefits managed in the same system as payroll, and want a named specialist catching compliance gaps before payday, Fernly is the better fit.",
 	},
+	{
+		slug: "homebase-payroll",
+		name: "Homebase Payroll",
+		summary:
+			"How Fernly compares with Homebase Payroll on pricing, human support, benefits, multi-state compliance and year-end filings for teams of 5 to 50.",
+		intro:
+			"Fernly is built for US teams of 5 to 50 who want payroll, taxes and benefits handled in one place, with a named payroll specialist they can call. Homebase Payroll is built for hourly teams that already schedule shifts and clock in on Homebase, and want payroll run straight from those timesheets.",
+		competitorRows: {
+			pricing: "A monthly base plus a fee per active employee, with unlimited payroll runs.",
+			support:
+				"A dedicated payroll expert during onboarding, then live human support every day from 7am to 7pm CT.",
+			benefits: "401(k), workers' comp and health benefits are offered through integrations.",
+			multiState: "[What Homebase Payroll offers for multi-state payroll and state registrations]",
+			setup:
+				"No implementation fees. Homebase transfers your pay and tax data and aims to have you live within a week.",
+			yearEnd: "W-2s and 1099s are included.",
+		},
+		bottomLine:
+			"If your team is mostly hourly and you already run scheduling, time clocks and tip pools in Homebase, Homebase Payroll keeps it all in one app. If you have 5 to 50 people, benefits to keep in sync and people in more than one state, Fernly is the better fit. And if you like Homebase for scheduling, you can keep it: approved timesheets flow straight into your Fernly pay run.",
+	},
 ];
 
 export function getCompetitor(slug: string): Competitor | undefined {

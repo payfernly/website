@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { POSTS } from "@/lib/posts";
+import { COMPETITORS } from "@/lib/competitors";
 
 const BASE = "https://payfernly.com";
 
@@ -12,6 +13,7 @@ const PAGES = [
 	"/about",
 	"/blog",
 	"/contact",
+	"/competitors",
 	"/events/techcrunch-disrupt-2027",
 ];
 
@@ -21,6 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		...POSTS.map((post) => ({
 			url: `${BASE}/blog/${post.slug}`,
 			lastModified: post.date,
+		})),
+		...COMPETITORS.map((competitor) => ({
+			url: `${BASE}/competitors/${competitor.slug}`,
 		})),
 	];
 }
