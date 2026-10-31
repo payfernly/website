@@ -43,6 +43,10 @@
 		linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 55%, var(--blue-600) 100%);
 }
 
+.heroSolid {
+	background: var(--blue-500);
+}
+
 .heroLight {
 	background: var(--surface);
 }
@@ -51,12 +55,20 @@
 	color: #fff;
 }
 
+.titleCompact {
+	font-size: clamp(2.5rem, 5.5vw, 3rem);
+}
+
 .hero .eyebrow {
 	color: #7db9f5;
 }
 
 .hero .lede {
 	color: rgba(255, 255, 255, 0.85);
+}
+
+.heroSolid .eyebrow {
+	color: #fff;
 }
 
 .heroLight h1 {
