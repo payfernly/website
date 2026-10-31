@@ -51,6 +51,10 @@
 	color: #fff;
 }
 
+.titleCompact {
+	font-size: clamp(2.5rem, 5.5vw, 3rem);
+}
+
 .hero .eyebrow {
 	color: #7db9f5;
 }
