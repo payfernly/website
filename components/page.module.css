@@ -136,6 +136,24 @@
 	background: rgba(255, 255, 255, 0.12);
 }
 
+.heroLight .primary {
+	background: var(--blue-500);
+	color: #fff;
+}
+
+.heroLight .primary:hover {
+	background: var(--navy-700);
+}
+
+.heroLight .secondary {
+	border-color: var(--navy-700);
+	color: var(--navy-700);
+}
+
+.heroLight .secondary:hover {
+	background: var(--blue-100);
+}
+
 .grid3 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
