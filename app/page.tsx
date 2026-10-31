@@ -13,7 +13,7 @@ export default function HomePage() {
 	return (
 		<>
 			<section className={styles.section}>
-				<div className={`${styles.hero} ${styles.heroDots}`}>
+				<div className={`${styles.hero} ${styles.heroLight}`}>
 					<div>
 						<p className={styles.eyebrow}>Payroll for small US teams</p>
 						<h1>Payroll that takes four minutes, not your whole week.</h1>
