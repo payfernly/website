@@ -16,7 +16,7 @@ export default function HomePage() {
 				<div className={`${styles.hero} ${styles.heroSolid}`}>
 					<div>
 						<p className={styles.eyebrow}>Payroll for small US teams</p>
-						<h1 className={styles.titleCompact}>Payroll that takes four minutes, not your whole week.</h1>
+						<h1 className={styles.titleCompact}>Payroll done in four minutes.</h1>
 						<p className={styles.lede}>
 							Fernly pays your people, files every federal and state payroll tax form, and
 							keeps benefits deductions in sync — built for companies with 5 to 50
