@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import "./globals.css";
@@ -20,15 +19,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
+			<head>
+				{/* Visitors, keyed and without async: running A/B tests apply before the first paint. */}
+				{/* eslint-disable-next-line @next/next/no-sync-scripts -- blocking on purpose */}
+				<script src="https://lettervisit.com/v.js?k=lv_pub_vyyklm2zei0phbxbfpynh5kw" data-key="lv_pub_vyyklm2zei0phbxbfpynh5kw" />
+			</head>
 			<body>
 				<SiteHeader />
 				<main>{children}</main>
 				<SiteFooter />
-				<Script
-					src="https://lettervisit.com/v.js"
-					data-key="lv_pub_vyyklm2zei0phbxbfpynh5kw"
-					strategy="lazyOnload"
-				/>
 			</body>
 		</html>
 	);
