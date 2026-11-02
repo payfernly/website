@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { HomeJsonLd } from "@/components/HomeJsonLd";
+
+const title = "Fernly — Payroll for teams of 5 to 50";
+const description =
+	"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.";
 
 export const metadata: Metadata = {
-	title: { absolute: "Fernly — Payroll for teams of 5 to 50" },
-	description:
-		"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.",
+	title: { absolute: title },
+	description,
 	alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
 	return (
 		<>
+			<HomeJsonLd description={description} />
 			<section className={styles.section}>
 				<div className={`${styles.hero} ${styles.heroDots}`}>
 					<div>
@@ -20,7 +25,7 @@ export default function HomePage() {
 						<p className={styles.lede}>
 							Fernly pays your people, files every federal and state payroll tax form, and
 							keeps benefits deductions in sync — built for companies with 5 to 50
-							employees. Plans start at $6 per person per month.
+							employees. Plans start at $8 per person per month.
 						</p>
 						<div className={styles.buttons}>
 							<Link href="/pricing" className={styles.primary}>
@@ -53,8 +58,8 @@ export default function HomePage() {
 					<div className={styles.card}>
 						<h3>Taxes filed for you</h3>
 						<p>
-							We calculate, pay and file federal, state and local payroll taxes, including Form
-							941 every quarter and W-2s every January.
+							We calculate, pay and file federal, state and local payroll taxes, including{" "}
+							<Link href="/blog/form-941-explained">Form 941</Link> every quarter and W-2s every January.
 						</p>
 					</div>
 					<div className={styles.card}>
