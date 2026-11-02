@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				{/* Visitors (Setup's tag): loads v.js async and holds the page only until the A/B variant is drawn, at most 1s, so Letter being down never holds the page. */}
 				<script dangerouslySetInnerHTML={{ __html: "(function(w,d){var h=null;try{var l=w.localStorage,p=JSON.parse(l.getItem(\"lv:vp:\"+\"lv_pub_vyyklm2zei0phbxbfpynh5kw\")||\"[]\"),q=(location.pathname||\"/\").replace(/\\/{2,}/g,\"/\").replace(/(.)\\/+$/,\"$1\");if(!l.getItem(\"lv:seen:\"+\"lv_pub_vyyklm2zei0phbxbfpynh5kw\")||p.indexOf(q)>=0){h=d.createElement(\"style\");h.textContent=\"html{opacity:0!important}\";d.head.appendChild(h)}l.setItem(\"lv:seen:\"+\"lv_pub_vyyklm2zei0phbxbfpynh5kw\",\"1\")}catch(e){}w.__lvReveal=function(){if(h&&h.parentNode)h.parentNode.removeChild(h);h=null};setTimeout(function(){if(h)w.__lvLate=1;w.__lvReveal()},1000);var s=d.createElement(\"script\");s.src=\"https://lettervisit.com/v.js?k=lv_pub_vyyklm2zei0phbxbfpynh5kw\";s.async=true;s.setAttribute(\"data-key\",\"lv_pub_vyyklm2zei0phbxbfpynh5kw\");s.onerror=w.__lvReveal;d.head.appendChild(s)})(window,document)" }} />
 			</head>
-			<body>
+			<body data-letter-edit>
 				<SiteHeader />
 				<main>{children}</main>
 				<SiteFooter />
