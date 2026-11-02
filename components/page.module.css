@@ -43,10 +43,6 @@
 		linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 55%, var(--blue-600) 100%);
 }
 
-.heroSolid {
-	background: var(--blue-500);
-}
-
 .heroLight {
 	background: var(--surface);
 }
@@ -55,20 +51,12 @@
 	color: #fff;
 }
 
-.titleCompact {
-	font-size: clamp(2.5rem, 5.5vw, 3rem);
-}
-
 .hero .eyebrow {
 	color: #7db9f5;
 }
 
 .hero .lede {
 	color: rgba(255, 255, 255, 0.85);
-}
-
-.heroSolid .eyebrow {
-	color: #fff;
 }
 
 .heroLight h1 {
@@ -146,24 +134,6 @@
 
 .hero .secondary:hover {
 	background: rgba(255, 255, 255, 0.12);
-}
-
-.heroLight .primary {
-	background: var(--blue-500);
-	color: #fff;
-}
-
-.heroLight .primary:hover {
-	background: var(--navy-700);
-}
-
-.heroLight .secondary {
-	border-color: var(--navy-700);
-	color: var(--navy-700);
-}
-
-.heroLight .secondary:hover {
-	background: var(--blue-100);
 }
 
 .grid3 {
