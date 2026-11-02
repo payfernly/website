@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AuthorBio from "@/components/AuthorBio";
 import styles from "@/components/page.module.css";
 import { formatDate, getPost } from "@/lib/posts";
 
@@ -50,6 +51,8 @@ export default function Post() {
 				against your deposits and run the parallel payroll with you. Most teams are live within a
 				week. <Link href="/contact">Book a 20-minute call</Link> and we&apos;ll give you a date.
 			</p>
+
+			<AuthorBio name={post.author} />
 		</article>
 	);
 }

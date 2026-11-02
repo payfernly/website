@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AuthorBio from "@/components/AuthorBio";
 import styles from "@/components/page.module.css";
 import { formatDate, getPost } from "@/lib/posts";
 
@@ -61,6 +62,8 @@ export default function Post() {
 				Fernly prepares and files your 941 every quarter on every plan.{" "}
 				<Link href="/features/compliance">See everything we file</Link>.
 			</p>
+
+			<AuthorBio name={post.author} />
 		</article>
 	);
 }

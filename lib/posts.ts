@@ -6,6 +6,29 @@ export type Post = {
 	author: string;
 };
 
+export type Author = {
+	name: string;
+	role?: string;
+	bio: string;
+};
+
+export const AUTHORS: Record<string, Author> = {
+	"Priya Raman": {
+		name: "Priya Raman",
+		role: "Co-founder",
+		bio: "Priya co-founded Fernly in 2021. Before that, she spent six years running payroll and HR at a 30-person design studio, which is where she learned how many state registrations nobody tells you about.",
+	},
+	"Marcus Lindqvist": {
+		name: "Marcus Lindqvist",
+		role: "Co-founder",
+		bio: "Marcus co-founded Fernly in 2021, after building billing systems at a fintech. He wanted small companies to get payroll that works as reliably as the tools built for 5,000 employees, without the price tag.",
+	},
+	"Jordan Whitfield": {
+		name: "Jordan Whitfield",
+		bio: "Jordan writes for the Fernly blog about federal payroll filings, including the quarterly Form 941.",
+	},
+};
+
 export const POSTS: Post[] = [
 	{
 		slug: "hiring-in-a-new-state",
@@ -46,4 +69,10 @@ export function getPost(slug: string): Post {
 	const post = POSTS.find((p) => p.slug === slug);
 	if (!post) throw new Error(`Unknown post: ${slug}`);
 	return post;
+}
+
+export function getAuthor(name: string): Author {
+	const author = AUTHORS[name];
+	if (!author) throw new Error(`Unknown author: ${name}`);
+	return author;
 }

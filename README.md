@@ -48,6 +48,7 @@ public/                   logo and hand-drawn SVG illustrations
 ### Adding a blog post
 
 1. Add an entry to `POSTS` in `lib/posts.ts` (slug, title, summary, date, author).
+   New authors also need an entry in `AUTHORS` (name, role, bio); the bio shows at the end of their posts.
 2. Copy one of the folders under `app/blog/` to `app/blog/<slug>/` and write the post.
    The index page and the sitemap pick it up from `POSTS` automatically.
 

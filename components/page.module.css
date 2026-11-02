@@ -289,6 +289,33 @@
 	gap: 1.25rem;
 }
 
+.authorBio {
+	background: var(--surface);
+	border-radius: var(--radius);
+	padding: 2rem 1.75rem;
+	box-shadow: var(--shadow);
+	margin: 3rem 0 0;
+}
+
+.authorBio .eyebrow {
+	color: var(--blue-500);
+	margin-bottom: 0.75rem;
+}
+
+.authorBio h3 {
+	margin: 0;
+}
+
+.authorBio p {
+	margin: 0;
+	color: var(--ink-muted);
+}
+
+.authorBio .authorRole {
+	font-size: 0.9rem;
+	margin: 0.15rem 0 0.75rem;
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
