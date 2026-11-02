@@ -17,6 +17,12 @@ export function SiteFooter() {
 					<Link href="/pricing">Pricing</Link>
 				</div>
 				<div className={styles.col}>
+					<span className={styles.heading}>Solutions</span>
+					<Link href="/solutions/founders">For founders</Link>
+					<Link href="/solutions/operations-leads">For operations leads</Link>
+					<Link href="/solutions/multi-state-teams">For multi-state teams</Link>
+				</div>
+				<div className={styles.col}>
 					<span className={styles.heading}>Company</span>
 					<Link href="/about">About</Link>
 					<Link href="/blog">Blog</Link>
