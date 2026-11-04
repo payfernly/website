@@ -26,6 +26,12 @@
 	margin: 0 0 1.75rem;
 }
 
+.centered {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .hero {
 	display: grid;
 	grid-template-columns: 1.1fr 1fr;
