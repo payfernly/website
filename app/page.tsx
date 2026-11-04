@@ -99,13 +99,15 @@ export default function HomePage() {
 
 			<section className={styles.section}>
 				<h2>Switching takes one afternoon</h2>
-				<p className={styles.lede}>
+				<p className={`${styles.lede} ${styles.centered}`}>
 					Send us your last three pay registers. We import year-to-date totals, set up your tax
 					accounts and run a parallel payroll with you before your first real one goes out.
 				</p>
-				<Link href="/features/payroll" className={styles.secondary}>
-					How payroll works in Fernly
-				</Link>
+				<div className={styles.centered}>
+					<Link href="/features/payroll" className={styles.secondary}>
+						How payroll works in Fernly
+					</Link>
+				</div>
 			</section>
 		</>
 	);
