@@ -97,7 +97,7 @@ export default function HomePage() {
 				</blockquote>
 			</section>
 
-			<section className={styles.section}>
+			<section className={`${styles.section} ${styles.centered}`}>
 				<h2>Switching takes one afternoon</h2>
 				<p className={`${styles.lede} ${styles.centered}`}>
 					Send us your last three pay registers. We import year-to-date totals, set up your tax
