@@ -14,6 +14,7 @@ const PAGES = [
 	"/contact",
 	"/glossary",
 	"/events/techcrunch-disrupt-2027",
+	"/for/agencies",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
