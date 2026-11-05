@@ -12,6 +12,7 @@ const PAGES = [
 	"/about",
 	"/blog",
 	"/contact",
+	"/glossary",
 	"/events/techcrunch-disrupt-2027",
 ];
 
