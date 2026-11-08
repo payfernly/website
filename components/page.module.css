@@ -208,6 +208,13 @@
 	border-bottom: 1px solid var(--line);
 }
 
+.table caption {
+	caption-side: top;
+	text-align: left;
+	padding: 0 0 0.75rem;
+	color: var(--ink-muted);
+}
+
 .table th {
 	background: var(--navy-900);
 	color: #fff;
