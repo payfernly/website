@@ -38,7 +38,11 @@ export default function Post() {
 			<p>
 				Separate agency, separate account, separate rate. New employers get a standard rate for
 				their first year or two, usually between 1% and 3.4% of the first chunk of each
-				employee&apos;s wages.
+				employee&apos;s wages.{" "}
+				<Link href="/glossary#state-unemployment-insurance">
+					What state unemployment insurance is
+				</Link>
+				.
 			</p>
 
 			<h2>3. Paid family and medical leave</h2>
@@ -46,7 +50,11 @@ export default function Post() {
 				Colorado, Washington, Oregon, Massachusetts, Connecticut, New Jersey, New York, Rhode
 				Island, California, Delaware, Maryland, Maine and Minnesota all run some form of paid
 				leave program funded through payroll. Each has its own registration, and several have
-				employer contributions on top of the employee deduction.
+				employer contributions on top of the employee deduction.{" "}
+				<Link href="/glossary#paid-family-and-medical-leave">
+					What paid family and medical leave covers
+				</Link>
+				.
 			</p>
 
 			<h2>4. Local taxes</h2>
@@ -59,7 +67,8 @@ export default function Post() {
 			<h2>5. New-hire reporting</h2>
 			<p>
 				Every state requires you to report new hires, usually within 20 days. It feeds child
-				support enforcement, and it&apos;s one of the most commonly missed filings we see.
+				support enforcement, and it&apos;s one of the most commonly missed filings we see.{" "}
+				<Link href="/glossary#new-hire-reporting">New-hire reporting, defined</Link>.
 			</p>
 
 			<h2>Rather not do it yourself?</h2>

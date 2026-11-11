@@ -23,7 +23,8 @@ export default function Post() {
 			<p>
 				Form 941 is the Employer&apos;s Quarterly Federal Tax Return. Four times a year it tells
 				the IRS how much you paid your employees, how much federal income tax you withheld, and
-				how much Social Security and Medicare tax you and your employees owe.
+				how much Social Security and Medicare tax you and your employees owe. (Short version:{" "}
+				<Link href="/glossary#form-941">Form 941 in our glossary</Link>.)
 			</p>
 
 			<h2>Why it has to match your deposits</h2>
