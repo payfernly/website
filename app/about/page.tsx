@@ -26,7 +26,10 @@ export default function AboutPage() {
 			</section>
 
 			<section className={styles.section}>
-				<img src="/illustrations/team.svg" width={640} height={300} />
+				<img
+					src="/illustrations/team.svg"
+					alt="Illustration of four Fernly team members standing side by side behind a desk"
+					width={640} height={300} />
 			</section>
 
 			<section className={styles.narrow}>
