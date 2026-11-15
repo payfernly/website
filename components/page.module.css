@@ -214,6 +214,14 @@
 	font-weight: 600;
 }
 
+.table caption {
+	caption-side: top;
+	text-align: left;
+	padding: 0.85rem 1rem;
+	color: var(--ink-muted);
+	font-size: 0.9rem;
+}
+
 .postMeta {
 	color: var(--ink-muted);
 	font-size: 0.9rem;
