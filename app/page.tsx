@@ -20,7 +20,7 @@ export default function HomePage() {
 						<p className={styles.lede}>
 							Fernly pays your people, files every federal and state payroll tax form, and
 							keeps benefits deductions in sync — built for companies with 5 to 50
-							employees. Plans start at $6 per person per month.
+							employees. Plans start at $8 per person per month plus a $40 monthly base.
 						</p>
 						<div className={styles.buttons}>
 							<Link href="/pricing" className={styles.primary}>
