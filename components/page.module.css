@@ -208,7 +208,15 @@
 	border-bottom: 1px solid var(--line);
 }
 
-.table th {
+.table caption {
+	caption-side: top;
+	text-align: left;
+	padding: 0 0 0.75rem;
+	font-weight: 600;
+	color: var(--navy-900);
+}
+
+.table thead th {
 	background: var(--navy-900);
 	color: #fff;
 	font-weight: 600;
