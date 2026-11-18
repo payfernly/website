@@ -55,6 +55,10 @@ export default function AboutPage() {
 					themselves.
 				</p>
 				<p>
+					Want to meet us in person? We&apos;ll be in San Francisco in October for{" "}
+					<Link href="/events/techcrunch-disrupt-2027">TechCrunch Disrupt 2027</Link>.
+				</p>
+				<p>
 					Want to work with us? We&apos;re hiring payroll specialists and engineers.{" "}
 					<Link href="/contact">Get in touch</Link>.
 				</p>
