@@ -3,6 +3,7 @@ export type Post = {
 	title: string;
 	summary: string;
 	date: string;
+	updated?: string;
 	author: string;
 };
 
