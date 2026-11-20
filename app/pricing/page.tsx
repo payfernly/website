@@ -62,7 +62,7 @@ export default function PricingPage() {
 		<>
 			<section className={styles.section}>
 				<p className={styles.eyebrow}>Pricing</p>
-				<h1>One monthly base, then a flat price per person.</h1>
+				<h1 className={styles.pageTitle}>One monthly base, then a flat price per person.</h1>
 				<p className={styles.lede}>
 					No setup fee, no charge per pay run, no year-end fee for W-2s. Contractors count as
 					people only in the months you pay them. Cancel anytime.
@@ -73,7 +73,7 @@ export default function PricingPage() {
 							key={plan.name}
 							className={plan.featured ? `${styles.card} ${styles.featured}` : styles.card}
 						>
-							<h3>{plan.name}</h3>
+							<h3 className={styles.planBadge}>{plan.name}</h3>
 							<p>{plan.blurb}</p>
 							<p className={styles.price}>
 								{plan.perPerson} <small>per person / month</small>
