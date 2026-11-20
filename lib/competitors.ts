@@ -93,6 +93,28 @@ export const COMPETITORS: Competitor[] = [
 		bottomLine:
 			"If you run a single location on Square and want payroll tied to your point of sale, Square Payroll is easy to start with. If you have 5 to 50 people, want benefits managed in the same system as payroll, and want a named specialist catching compliance gaps before payday, Fernly is the better fit.",
 	},
+	{
+		slug: "gusto",
+		name: "Gusto",
+		summary:
+			"How Fernly compares with Gusto on pricing, human support, benefits, multi-state compliance and year-end filings for teams of 5 to 50.",
+		intro:
+			"Fernly is built for US teams of 5 to 50 who want payroll, taxes and benefits handled in one place, with a named payroll specialist they can call. Gusto is a well-known all-in-one payroll and HR platform for small businesses, with tools for hiring, onboarding and time tracking alongside payroll.",
+		competitorRows: {
+			pricing:
+				"A monthly base plus a per-person fee, with tiers that add features, HR tools and support options.",
+			support:
+				"Phone, chat and email support from a shared team; higher tiers add priority support and access to HR experts.",
+			benefits:
+				"Health insurance, retirement and other benefits are offered in-app, through Gusto and partner providers.",
+			multiState:
+				"Supports paying employees and filing payroll taxes in multiple states; multi-state payroll depends on the plan you choose.",
+			setup: "No standard setup fee; you import your data and set up payroll yourself, with help available.",
+			yearEnd: "W-2s and 1099s are prepared and filed as part of the payroll plans.",
+		},
+		bottomLine:
+			"If you want a self-serve platform with a broad set of HR tools, like hiring, onboarding and performance, Gusto is a solid choice. If you have 5 to 50 people and the job you most need done is payroll, taxes and benefits that stay in sync, Fernly is the better fit: one flat price, and a named specialist who already knows your account and flags state registrations and deadlines before they turn into penalty notices.",
+	},
 ];
 
 export function getCompetitor(slug: string): Competitor | undefined {
