@@ -93,6 +93,27 @@ export const COMPETITORS: Competitor[] = [
 		bottomLine:
 			"If you run a single location on Square and want payroll tied to your point of sale, Square Payroll is easy to start with. If you have 5 to 50 people, want benefits managed in the same system as payroll, and want a named specialist catching compliance gaps before payday, Fernly is the better fit.",
 	},
+	{
+		slug: "gusto",
+		name: "Gusto",
+		summary:
+			"How Fernly compares with Gusto on pricing, human support, benefits, multi-state compliance and year-end filings for teams of 5 to 50.",
+		intro:
+			"Fernly is built for US teams of 5 to 50 who want payroll, taxes and benefits handled in one place, with a named payroll specialist they can call. Gusto is a well-known payroll and HR platform for small businesses, with tools for hiring, onboarding and time tracking alongside payroll.",
+		competitorRows: {
+			pricing:
+				"A monthly base plus a per-person fee, with tiers that add features, and a separate option for contractor-only payroll.",
+			support:
+				"Phone, email and chat support from a shared team; the top tier adds priority support and access to HR experts.",
+			benefits:
+				"Health insurance through Gusto's own brokerage, plus retirement and other benefits through partner providers.",
+			multiState: "The entry tier covers payroll in one state; multi-state payroll comes with the higher tiers.",
+			setup: "No setup fee. Setup is self-serve, with guided onboarding in the app.",
+			yearEnd: "W-2s and 1099s are prepared and filed as part of the payroll plans.",
+		},
+		bottomLine:
+			"If you want payroll bundled with a wide set of HR tools and you're happy running things yourself in a self-serve app, Gusto is a solid choice. If you have 5 to 50 people, benefits to keep in sync with payroll and a team spreading across states, Fernly is the better fit: one flat price, and a named specialist who catches registration and deduction problems before payday, not after.",
+	},
 ];
 
 export function getCompetitor(slug: string): Competitor | undefined {
