@@ -190,8 +190,43 @@
 }
 
 .featured {
-	border: 2px solid var(--blue-500);
+	border: 2px solid var(--navy-900);
 	position: relative;
+}
+
+.featured .planBadge {
+	box-shadow: 0 4px 12px rgba(0, 28, 100, 0.18);
+}
+
+.pricingTitle {
+	font-size: clamp(2.75rem, 6.5vw, 4.75rem);
+	font-weight: 800;
+	letter-spacing: -0.035em;
+	line-height: 1.05;
+}
+
+.card h3.planName {
+	margin: 0 0 1rem;
+}
+
+.planBadge {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.4rem 1rem;
+	border-radius: 999px;
+	background: var(--blue-100);
+	border: 1.5px solid rgba(0, 48, 135, 0.18);
+	color: var(--navy-900);
+	font-size: 0.95rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	line-height: 1.2;
+}
+
+.planBadgeFeatured {
+	background: var(--navy-900);
+	border-color: var(--navy-900);
+	color: #fff;
 }
 
 .price {
