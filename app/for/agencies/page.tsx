@@ -1,17 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { ServiceJsonLd } from "@/components/ServiceJsonLd";
+
+const description =
+	"Fernly runs payroll, files your federal and state payroll taxes, and keeps benefits deductions in sync for agencies with 5 to 50 people.";
 
 export const metadata: Metadata = {
 	title: "Payroll for agencies",
-	description:
-		"Fernly runs payroll, files your federal and state payroll taxes, and keeps benefits deductions in sync for agencies with 5 to 50 people.",
+	description,
 	alternates: { canonical: "/for/agencies" },
 };
 
 export default function AgenciesPage() {
 	return (
 		<section className={styles.narrow}>
+			<ServiceJsonLd
+				name="Fernly payroll for agencies"
+				description={description}
+				path="/for/agencies"
+				serviceType="Payroll"
+				audience="Agencies with 5 to 50 people"
+			/>
 			<p className={styles.eyebrow}>Fernly for agencies</p>
 			<h1>Payroll your agency never has to think about.</h1>
 			<p className={styles.lede}>
