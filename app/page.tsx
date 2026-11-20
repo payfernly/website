@@ -1,17 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import styles from "@/components/page.module.css";
+import { OrganizationJsonLd } from "@/components/OrganizationJsonLd";
+
+const description =
+	"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.";
 
 export const metadata: Metadata = {
 	title: { absolute: "Fernly — Payroll for teams of 5 to 50" },
-	description:
-		"Fernly runs payroll, files your federal and state taxes, and handles benefits deductions for US companies with 5 to 50 employees. Unlimited pay runs, no setup fee.",
+	description,
 	alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
 	return (
 		<>
+			<OrganizationJsonLd description={description} />
 			<section className={styles.section}>
 				<div className={styles.hero}>
 					<div>

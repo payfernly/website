@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "@/components/page.module.css";
 import { FeatureJsonLd } from "@/components/FeatureJsonLd";
 
-const title = "Payroll";
+const title = "Payroll software for small teams";
 const description =
 	"Run payroll in three steps: review hours, preview taxes, approve. Fernly handles direct deposit, garnishments, bonuses and off-cycle runs for hourly and salaried staff.";
 

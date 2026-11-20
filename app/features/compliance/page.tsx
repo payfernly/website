@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import styles from "@/components/page.module.css";
 import { FeatureJsonLd } from "@/components/FeatureJsonLd";
 
-const title = "Payroll tax compliance";
+const title = "Payroll tax compliance in all 50 states";
 const description =
 	"Fernly registers you with state tax agencies, files every quarterly and annual payroll return, and tracks new-hire reporting, paid leave and minimum-wage changes in all 50 states.";
 
