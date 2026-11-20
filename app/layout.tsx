@@ -9,10 +9,13 @@ export const metadata: Metadata = {
 		default: "Fernly — Payroll for small teams",
 		template: "%s — Fernly",
 	},
+	description:
+		"Fernly runs payroll, files your federal, state and local payroll taxes, and keeps benefits deductions in sync for US teams of 5 to 50, with a named payroll specialist for every customer.",
 	openGraph: {
 		siteName: "Fernly",
 		type: "website",
 	},
+	twitter: { card: "summary_large_image" },
 	icons: { icon: "/logo.svg" },
 };
 

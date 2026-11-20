@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import styles from "@/components/page.module.css";
 import { FeatureJsonLd } from "@/components/FeatureJsonLd";
 
-const title = "Benefits administration";
+const title = "Benefits administration for small teams";
 const description =
 	"Offer health, dental, vision and 401(k) through Fernly. Enrollments turn into payroll deductions automatically, and carriers get updated when someone joins or leaves.";
 

@@ -4,7 +4,7 @@ import styles from "@/components/page.module.css";
 import { POSTS, formatDate } from "@/lib/posts";
 
 export const metadata: Metadata = {
-	title: "Blog",
+	title: "Payroll guides for small businesses",
 	description:
 		"Plain-English guides to payroll taxes, state registrations and running payroll at a small company, from the Fernly team.",
 	alternates: { canonical: "/blog" },

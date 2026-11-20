@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "@/components/page.module.css";
 
 export const metadata: Metadata = {
-	title: "Pricing",
+	title: "Payroll pricing for small businesses",
 	description:
 		"Simple per-person pricing for payroll. Essentials is $40 a month plus $8 per person; Plus adds next-day direct deposit, benefits administration and multi-state support.",
 	alternates: { canonical: "/pricing" },
