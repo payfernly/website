@@ -22,6 +22,10 @@ export function SiteFooter() {
 					<Link href="/blog">Blog</Link>
 					<Link href="/contact">Contact</Link>
 				</div>
+				<div className={styles.col}>
+					<span className={styles.heading}>Compare</span>
+					<Link href="/compare/rippling">Fernly vs Rippling</Link>
+				</div>
 			</div>
 			<p className={styles.legal}>
 				© 2022 Fernly, Inc. · Fernly is not a bank. Payroll funds are held by our banking
