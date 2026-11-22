@@ -12,6 +12,7 @@ const PAGES = [
 	"/about",
 	"/blog",
 	"/contact",
+	"/compare/rippling",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
