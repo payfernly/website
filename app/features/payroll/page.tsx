@@ -32,7 +32,7 @@ export default function PayrollPage() {
 			</section>
 
 			<section className={styles.section}>
-				<h1>Built for hourly and salaried teams</h1>
+				<h2>Built for hourly and salaried teams</h2>
 				<div className={styles.grid2}>
 					<div className={styles.card}>
 						<h3>Time tracking that flows in</h3>
