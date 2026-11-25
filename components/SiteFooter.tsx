@@ -15,11 +15,14 @@ export function SiteFooter() {
 					<Link href="/features/benefits">Benefits</Link>
 					<Link href="/features/compliance">Compliance</Link>
 					<Link href="/pricing">Pricing</Link>
+					<Link href="/for/agencies">For agencies</Link>
 				</div>
 				<div className={styles.col}>
 					<span className={styles.heading}>Company</span>
 					<Link href="/about">About</Link>
 					<Link href="/blog">Blog</Link>
+					<Link href="/glossary">Glossary</Link>
+					<Link href="/events/techcrunch-disrupt-2027">TechCrunch Disrupt 2027</Link>
 					<Link href="/contact">Contact</Link>
 				</div>
 			</div>
