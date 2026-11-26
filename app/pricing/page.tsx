@@ -123,6 +123,10 @@ export default function PricingPage() {
 						</tr>
 					</tbody>
 				</table>
+				<p>
+					Weighing us against Paychex? See how these totals sit next to Paychex&apos;s published
+					starting price in <Link href="/compare/fernly-vs-paychex">Fernly vs Paychex</Link>.
+				</p>
 			</section>
 
 			<section className={styles.section}>

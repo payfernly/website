@@ -1,0 +1,94 @@
+.readDate {
+	color: var(--ink-muted);
+	font-size: 0.9rem;
+	margin: 1.25rem 0 0;
+}
+
+.source {
+	display: block;
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	color: var(--ink-muted);
+}
+
+.body {
+	max-width: 70ch;
+}
+
+.body p {
+	margin: 0 0 1rem;
+}
+
+.tableNote {
+	color: var(--ink-muted);
+	font-size: 0.95rem;
+	max-width: 70ch;
+	margin: 1rem 0 0;
+}
+
+.table td {
+	vertical-align: top;
+}
+
+.sources {
+	padding-left: 1.1rem;
+	margin: 1rem 0 0;
+	max-width: 70ch;
+}
+
+.sources li {
+	margin-bottom: 0.6rem;
+}
+
+.sources span {
+	display: block;
+	font-size: 0.9rem;
+	color: var(--ink-muted);
+}
+
+.ctaRow {
+	margin-top: 1.75rem;
+}
+
+.closing {
+	padding-bottom: 4rem;
+}
+
+@media (max-width: 720px) {
+	.table thead {
+		display: none;
+	}
+
+	.table,
+	.table tbody,
+	.table tr,
+	.table td {
+		display: block;
+		width: 100%;
+	}
+
+	.table tr {
+		border-bottom: 1px solid var(--line);
+		padding: 0.5rem 0;
+	}
+
+	.table tr:last-child {
+		border-bottom: 0;
+	}
+
+	.table td {
+		border-bottom: 0;
+		padding: 0.5rem 1rem;
+	}
+
+	.table td[data-label]::before {
+		content: attr(data-label);
+		display: block;
+		font-size: 0.78rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--blue-600);
+		margin-bottom: 0.2rem;
+	}
+}
