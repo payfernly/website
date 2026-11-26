@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import styles from "@/components/page.module.css";
 import { FeatureJsonLd } from "@/components/FeatureJsonLd";
 
@@ -54,12 +55,16 @@ export default function CompliancePage() {
 					</thead>
 					<tbody>
 						<tr>
-							<td>Form 941 (federal withholding)</td>
+							<td>
+								<Link href="/glossary#form-941">Form 941</Link> (federal withholding)
+							</td>
 							<td>Quarterly</td>
 							<td>Fernly</td>
 						</tr>
 						<tr>
-							<td>Form 940 (FUTA)</td>
+							<td>
+								Form 940 (<Link href="/glossary#futa">FUTA</Link>)
+							</td>
 							<td>Annually</td>
 							<td>Fernly</td>
 						</tr>
@@ -94,6 +99,12 @@ export default function CompliancePage() {
 					change dozens of times a year. Our compliance team tracks every update and applies it
 					to your payroll before the effective date, then emails you a one-paragraph summary of
 					what changed.
+				</p>
+				<p>
+					New to the acronyms? Our <Link href="/glossary">payroll glossary</Link> explains{" "}
+					<Link href="/glossary#form-941">Form 941</Link>, <Link href="/glossary#futa">FUTA</Link>{" "}
+					and Colorado&apos;s paid-leave program, <Link href="/glossary#famli">FAMLI</Link>, in
+					plain English.
 				</p>
 			</section>
 		</>

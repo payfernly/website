@@ -1,0 +1,81 @@
+.index {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1rem;
+}
+
+.index a {
+	display: inline-block;
+	padding: 0.4rem 1rem;
+	border: 2px solid var(--navy-900);
+	border-radius: 999px;
+	color: var(--navy-900);
+	font-weight: 700;
+	font-size: 0.92rem;
+	text-decoration: none;
+}
+
+.index a:hover {
+	background: var(--blue-100);
+}
+
+.terms {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin: 2rem 0 2.5rem;
+}
+
+.term {
+	background: var(--surface);
+	border-radius: var(--radius);
+	padding: 2rem 1.75rem;
+	box-shadow: var(--shadow);
+	scroll-margin-top: 6rem;
+}
+
+.term h2 {
+	margin-top: 0;
+}
+
+.aka {
+	color: var(--ink-muted);
+	font-size: 0.95rem;
+	margin: -0.25rem 0 1rem;
+}
+
+.label {
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-size: 0.72rem;
+	font-weight: 700;
+	color: var(--navy-700);
+	margin: 1.5rem 0 0.5rem;
+}
+
+.source {
+	margin: 0 0 0.5rem;
+	padding: 0.25rem 0 0.25rem 1rem;
+	border-left: 3px solid var(--navy-900);
+	color: var(--ink-muted);
+}
+
+.source p {
+	margin: 0 0 0.5rem;
+}
+
+.source footer {
+	font-size: 0.9rem;
+}
+
+.related {
+	margin: 0;
+	padding-left: 1.1rem;
+}
+
+.related li {
+	margin-bottom: 0.35rem;
+}
