@@ -87,6 +87,10 @@ export default function PayrollPage() {
 				<Link href="/pricing" className={`${styles.primary} ${styles.primaryDeep}`}>
 					Compare plans
 				</Link>
+				<p>
+					Weighing Fernly against Paychex?{" "}
+					<Link href="/compare/fernly-vs-paychex">Read our side-by-side comparison</Link>.
+				</p>
 			</section>
 		</>
 	);

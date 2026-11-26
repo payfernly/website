@@ -15,6 +15,7 @@ const PAGES = [
 	"/glossary",
 	"/events/techcrunch-disrupt-2027",
 	"/for/agencies",
+	"/compare/fernly-vs-paychex",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
